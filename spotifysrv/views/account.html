@@ -1,0 +1,6 @@
+{% extends 'layout.html' %} {% block content %}
+<p>ID: {{ user[0].id }}</p>
+<p>Profile:
+    <a href=" {{ user[0].profileUrl }}">{{ user[0].profileUrl }}</a>
+</p>
+{% endblock %}
